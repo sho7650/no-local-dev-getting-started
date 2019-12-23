@@ -13,11 +13,15 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (9.0.0)
+    barnes (0.0.7)
+      multi_json (~> 1)
+      statsd-ruby (~> 1.1)
     bond (0.5.1)
     concurrent-ruby (1.0.5)
     i18n (1.1.0)
       concurrent-ruby (~> 1.0)
     minitest (5.11.3)
+    multi_json (1.14.1)
     mustermann (1.0.3)
     pg (1.1.3)
     rack (2.0.5)
@@ -41,6 +45,7 @@ GEM
     sinatra-activerecord (2.0.13)
       activerecord (>= 3.2)
       sinatra (>= 1.0)
+    statsd-ruby (1.4.0)
     thread_safe (0.3.6)
     tilt (2.0.8)
     tux (0.3.0)
@@ -56,13 +61,14 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
+  barnes
   pg
   sinatra
   sinatra-activerecord
   tux
 
 RUBY VERSION
-   ruby 2.4.4p296
+   ruby 2.6.5p114
 
 BUNDLED WITH
-   1.16.4
+   1.17.2
