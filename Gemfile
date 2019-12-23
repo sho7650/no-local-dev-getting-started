@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
-ruby "2.4.4"
+ruby "2.6.5"
 
+gem "barnes"
 gem "sinatra" 
 gem "activerecord" 
 gem "sinatra-activerecord"
